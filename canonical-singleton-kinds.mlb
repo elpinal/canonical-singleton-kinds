@@ -1,0 +1,23 @@
+$(SML_LIB)/basis/basis.mlb
+wbt/wbt.mlb
+
+either.sml
+
+common.sml
+
+basis IL = bas
+  syntax.sml
+  operations.sml
+end
+
+basis EL = bas
+  el.sml
+end
+
+open IL EL
+env.sml
+
+translation.sml
+derived.sml
+
+test.sml

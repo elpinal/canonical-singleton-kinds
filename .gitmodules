@@ -1,0 +1,3 @@
+[submodule "wbt"]
+	path = wbt
+	url = https://github.com/elpinal/wbt
