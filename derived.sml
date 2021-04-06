@@ -5,7 +5,7 @@ structure Derived : sig
 
   (*
   * `equiv env x y k`
-  * Since the translation essentialy performs kindchecking,
+  * Since the translation essentially performs kindchecking,
   * you don't need to concern whether `x` and `y` are well-kinded or not.
   * Similarly, you don't need to concern about well-formedness of `k`.
   * *)
